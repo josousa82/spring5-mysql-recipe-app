@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8.0.25
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    build:
+      context: support-containers/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: Gr33nT345258
+      MYSQL_USER: user
+      MYSQL_PASSWORD: Gr33nT3452
+    ports:
+      - 3306:3306
+    container_name: mysql_recipe_app
+networks:
+  default:
+      name: sfg_recipe_network
