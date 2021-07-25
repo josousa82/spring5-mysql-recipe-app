@@ -1,6 +1,6 @@
 package guru.springframework.repositories;
 
-import guru.springframework.domain.UnitOfMeasure;
+import guru.springframework.domain.mysql.entities.UnitOfMeasure;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -15,6 +15,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * Created by jt on 6/17/17.
  */
+//@IfProfileValue(name = "spring.profiles.active", values = {"local"})
 @RunWith(SpringRunner.class)
 @DataJpaTest
 public class UnitOfMeasureRepositoryIT {

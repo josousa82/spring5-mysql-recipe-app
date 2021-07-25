@@ -1,7 +1,7 @@
 package guru.springframework.converters;
 
 import guru.springframework.commands.RecipeCommand;
-import guru.springframework.domain.*;
+import guru.springframework.domain.mysql.entities.*;
 import org.junit.Before;
 import org.junit.Test;
 

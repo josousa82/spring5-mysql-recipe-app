@@ -1,6 +1,6 @@
 package guru.springframework.controllers;
 
-import guru.springframework.domain.Recipe;
+import guru.springframework.domain.mysql.entities.Recipe;
 import guru.springframework.services.RecipeService;
 import org.junit.Before;
 import org.junit.Test;
@@ -35,7 +35,7 @@ public class IndexControllerTest {
 
     @Before
     public void setUp() throws Exception {
-        MockitoAnnotations.initMocks(this);
+        MockitoAnnotations.openMocks(this);
 
         controller = new IndexController(recipeService);
     }

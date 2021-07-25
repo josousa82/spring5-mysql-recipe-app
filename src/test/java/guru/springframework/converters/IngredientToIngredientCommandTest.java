@@ -1,9 +1,9 @@
 package guru.springframework.converters;
 
 import guru.springframework.commands.IngredientCommand;
-import guru.springframework.domain.Ingredient;
-import guru.springframework.domain.Recipe;
-import guru.springframework.domain.UnitOfMeasure;
+import guru.springframework.domain.mysql.entities.Ingredient;
+import guru.springframework.domain.mysql.entities.Recipe;
+import guru.springframework.domain.mysql.entities.UnitOfMeasure;
 import org.junit.Before;
 import org.junit.Test;
 

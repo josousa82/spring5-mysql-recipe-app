@@ -1,8 +1,8 @@
 package guru.springframework.converters;
 
 import guru.springframework.commands.IngredientCommand;
-import guru.springframework.domain.Ingredient;
-import guru.springframework.domain.Recipe;
+import guru.springframework.domain.mysql.entities.Ingredient;
+import guru.springframework.domain.mysql.entities.Recipe;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Component;

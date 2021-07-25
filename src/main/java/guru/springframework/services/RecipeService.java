@@ -1,7 +1,7 @@
 package guru.springframework.services;
 
 import guru.springframework.commands.RecipeCommand;
-import guru.springframework.domain.Recipe;
+import guru.springframework.domain.mysql.entities.Recipe;
 
 import java.util.Set;
 

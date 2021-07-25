@@ -1,7 +1,8 @@
-package guru.springframework.domain;
+package guru.springframework.domain.mysql.entities;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.context.annotation.Profile;
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -10,6 +11,7 @@ import java.util.Set;
 /**
  * Created by jt on 6/13/17.
  */
+@Profile({"dev", "local", "prod"})
 @Getter
 @Setter
 @Entity

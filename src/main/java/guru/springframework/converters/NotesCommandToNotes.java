@@ -1,7 +1,7 @@
 package guru.springframework.converters;
 
 import guru.springframework.commands.NotesCommand;
-import guru.springframework.domain.Notes;
+import guru.springframework.domain.mysql.entities.Notes;
 import lombok.Synchronized;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.lang.Nullable;

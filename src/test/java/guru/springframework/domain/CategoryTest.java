@@ -1,5 +1,6 @@
 package guru.springframework.domain;
 
+import guru.springframework.domain.mysql.entities.Category;
 import org.junit.Before;
 import org.junit.Test;
 

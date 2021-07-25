@@ -1,7 +1,7 @@
 package guru.springframework.converters;
 
 import guru.springframework.commands.NotesCommand;
-import guru.springframework.domain.Notes;
+import guru.springframework.domain.mysql.entities.Notes;
 import org.junit.Before;
 import org.junit.Test;
 

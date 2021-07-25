@@ -1,6 +1,6 @@
 package guru.springframework.repositories;
 
-import guru.springframework.domain.Recipe;
+import guru.springframework.domain.mysql.entities.Recipe;
 import org.springframework.data.repository.CrudRepository;
 
 /**

@@ -1,7 +1,7 @@
 package guru.springframework.converters;
 
 import guru.springframework.commands.UnitOfMeasureCommand;
-import guru.springframework.domain.UnitOfMeasure;
+import guru.springframework.domain.mysql.entities.UnitOfMeasure;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,7 +1,7 @@
 package guru.springframework.controllers;
 
 import guru.springframework.commands.RecipeCommand;
-import guru.springframework.domain.Recipe;
+import guru.springframework.domain.mysql.entities.Recipe;
 import guru.springframework.exceptions.NotFoundException;
 import guru.springframework.services.RecipeService;
 import org.junit.Before;
@@ -33,7 +33,7 @@ public class RecipeControllerTest {
 
     @Before
     public void setUp() throws Exception {
-        MockitoAnnotations.initMocks(this);
+        MockitoAnnotations.openMocks(this);
 
         controller = new RecipeController(recipeService);
         mockMvc = MockMvcBuilders.standaloneSetup(controller)
